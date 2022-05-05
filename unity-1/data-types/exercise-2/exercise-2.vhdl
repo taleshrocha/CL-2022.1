@@ -5,7 +5,7 @@ entity exer2 is
   port ( 
          a: in bit_vector(0 to 3);
          b: in bit_vector(3 downto 0);
-         o: out bit_vector(7 downto 0)
+         o: in bit_vector(7 downto 0)
        );
 end exer2;
 
