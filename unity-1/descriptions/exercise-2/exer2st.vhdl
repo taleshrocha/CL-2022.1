@@ -1,32 +1,32 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity circuito2 is
+entity exer2st is
   port(
   a, b, c ,d : in std_logic;
   x : out std_logic
 );
-end circuito2;
+end exer2st;
 
-architecture behaviour of circuito2 is
+architecture behaviour of exer2st is
   component and2
     port(
     a, b : in std_logic;
-    c : out std_logic
+    x : out std_logic
   );
 end component;
 
   component or2
     port(
     a, b : in std_logic;
-    c : out std_logic
+    x : out std_logic
   );
 end component;
 
   component not1
     port(
     a : in std_logic;
-    c : out std_logic
+    x : out std_logic
   );
 end component;
 

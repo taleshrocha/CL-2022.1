@@ -5,10 +5,9 @@ entity exer1a_bench is
 end exer1a_bench;
 
 architecture tb of exer1a_bench is
-    signal a, b : bit_vector(0 to 3);  -- inputs 
-    signal s: bit_vector(0 to 3);  -- outputs
+    signal a, b : bit_vector(0 to 3);
+    signal s: bit_vector(0 to 3);
 begin
-    -- connecting testbench signals with half_adder.vhd
     UUT : entity work.exer1a port map (a => a, b => b, s => s);
 
     a(0) <= '0', '1' after 20 ns, '0' after 100 ns;
