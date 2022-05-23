@@ -1,10 +1,10 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity demux_bench is
-  end demux_bench;
+entity demux_ite_tb is
+  end demux_ite_tb;
 
-architecture behavior of demux_bench is
+architecture behavior of demux_ite_tb is
   component demux_ite
     port(
           f : in std_logic;
