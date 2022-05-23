@@ -14,6 +14,6 @@ tb:
 	${CVHDL} -m demux_tb
 	${CVHDL} -r demux_tb --wave=wave.ghw
 
-clean:
+c:
 	@echo "Cleaning all auxiliate files..."
 	${CVHDL} --clean
