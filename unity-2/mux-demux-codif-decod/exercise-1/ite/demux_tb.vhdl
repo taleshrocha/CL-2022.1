@@ -1,11 +1,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity demux_ite_tb is
-  end demux_ite_tb;
+entity demux_tb is
+  end demux_tb;
 
-architecture behavior of demux_ite_tb is
-  component demux_ite
+architecture behavior of demux_tb is
+  component demux
     port(
           f : in std_logic;
           s0 : in std_logic;
@@ -30,7 +30,7 @@ architecture behavior of demux_ite_tb is
 
 begin
 
-  uut: demux_ite port map 
+  uut: demux port map 
   (
     f => f,
     s0 => s0,

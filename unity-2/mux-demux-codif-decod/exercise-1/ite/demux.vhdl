@@ -1,15 +1,15 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity demux_ite is
+entity demux is
   port(
         f : in std_logic;
   s0,s1: in std_logic;
   a,b,c,d: out std_logic
 );
-end demux_ite;
+end demux;
 
-architecture behaviour of demux_ite is
+architecture behaviour of demux is
 begin
   process (f,s0,s1) is
   begin
