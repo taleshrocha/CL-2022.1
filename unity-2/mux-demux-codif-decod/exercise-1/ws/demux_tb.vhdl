@@ -13,7 +13,6 @@ begin
 UUT : entity work.demux port map (a => a, b => b, c => c, d => d, f => f, s => s);
 stim_proc: process
   begin
-  -- hold reset state for 100 ns.
 
   f <= "00";
   s <= "00";
