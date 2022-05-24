@@ -13,15 +13,11 @@ architecture behaviour of demux is
 begin
   process (f,s) is
   begin
-    if (s = "00") then
-      a <= f;
-    elsif (s ="01") then
-      b <= f;
-    elsif (s ="10") then
-      c <= f;
-    else
-      d <= f;
-    end if;
+    with s select
+    a <= f when "00";
+    b <= f when "01",
+    c <= f when "10",
+    d <= f when others;
 
   end process;
 end behaviour;
