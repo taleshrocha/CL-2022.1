@@ -12,11 +12,12 @@ end demux;
 architecture behaviour of demux is
 begin
   process (f,s) is
-  begin
-    a <= f when (s = "00") else
-    b <= f when (s ="01") else
-    c <= f (s ="10") else
-    d <= f;
-
+    begin
+      case (s) is
+        when ("00") => a <= f; 
+        when ("01") => b <= f ;
+        when ("10") => c <= f;
+        when others => d <= f;
+      end case;
   end process;
 end behaviour;
