@@ -29,8 +29,6 @@ stim_proc: process
   wait for 100 ns;
   i <= "00000001";
   wait for 100 ns;
-  i <= "00000000";
-  wait for 100 ns;
 
   wait;
   end process;

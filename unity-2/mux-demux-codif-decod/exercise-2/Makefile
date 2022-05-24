@@ -15,6 +15,7 @@ tb:
 	${CVHDL} -a coffee_tb.vhdl
 	${CVHDL} -m coffee_tb
 	${CVHDL} -r coffee_tb --wave=wave.ghw
+	#${CVHDL} -r coffee --wave=wave2.ghw
 
 c:
 	@echo "Cleaning all auxiliate files..."

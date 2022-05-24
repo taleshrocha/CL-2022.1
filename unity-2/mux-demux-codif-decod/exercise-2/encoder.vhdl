@@ -18,5 +18,5 @@ begin
          "101" when "00001000",
          "110" when "00000100",
          "111" when "00000010",
-         "111" when others;
+         "000" when others;
 end behaviour;
