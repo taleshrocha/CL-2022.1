@@ -11,17 +11,12 @@ end demux;
 
 architecture behaviour of demux is
 begin
-  process (f,s) is
-  begin
-    if (s = "00") then
-      a <= f;
-    elsif (s ="01") then
-      b <= f;
-    elsif (s ="10") then
-      c <= f;
-    else
-      d <= f;
-    end if;
-
-  end process;
+  a <= f when (s = "00") else
+       "00";
+  b <= f when (s = "01") else
+       "00";
+  c <= f when (s = "10") else
+       "00";
+  d <= f when (s = "11") else
+       "00";
 end behaviour;
