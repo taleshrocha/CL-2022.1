@@ -1,0 +1,10 @@
+v 4
+file . "exercise-1b.vhdl" "4d8f6629ef4c60d1663f5420937ba6235bcca150" "20220504200541.036":
+  entity exer1b at 1( 0) + 0 on 15;
+  architecture behaviour of exer1b at 12( 172) + 0 on 16;
+file . "exercise-1a.vhdl" "aa42a2c9bbdd847ffae1e65c8032431f9104be47" "20220504200420.015":
+  entity exer1a at 1( 0) + 0 on 13;
+  architecture behaviour of exer1a at 12( 187) + 0 on 14;
+file . "exer1a_bench.vhdl" "108173c7880eef2c70196914fb308c277a84f0d2" "20220506203847.766":
+  entity exer1a_bench at 1( 0) + 0 on 23;
+  architecture tb of exer1a_bench at 7( 86) + 0 on 24;

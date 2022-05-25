@@ -1,0 +1,19 @@
+v 4
+file . "not1.vhdl" "5b4552ccd69e46a2a061edcdf771dcc7a5918936" "20220510162915.447":
+  entity not1 at 1( 0) + 0 on 37;
+  architecture behaviour of not1 at 11( 120) + 0 on 38;
+file . "and2.vhdl" "f69f75cc304261d9cdadd05fa870f915732312b5" "20220510162915.356":
+  entity and2 at 1( 0) + 0 on 31;
+  architecture behaviour of and2 at 11( 124) + 0 on 32;
+file . "exer2df.vhdl" "8be933b5388ef278c7c27627398ba4af38829d5a" "20220510164634.263":
+  entity exer2df at 1( 0) + 0 on 47;
+  architecture behaviour of exer2df at 11( 136) + 0 on 48;
+file . "exer2st.vhdl" "335a50bf9d9f2a8e1350c89cc8abe5455e360b88" "20220510205839.937":
+  entity exer2st at 1( 0) + 0 on 51;
+  architecture behaviour of exer2st at 11( 136) + 0 on 52;
+file . "or2.vhdl" "604edded01942c4b640997e815b12cef46a55ce6" "20220510162915.469":
+  entity or2 at 1( 0) + 0 on 39;
+  architecture behaviour of or2 at 11( 122) + 0 on 40;
+file . "exer2tb.vhdl" "b3aeaf2578af1751d89f1a881fd1946996394525" "20220510163843.521":
+  entity exer2tb at 1( 0) + 0 on 43;
+  architecture tb of exer2tb at 7( 76) + 0 on 44;

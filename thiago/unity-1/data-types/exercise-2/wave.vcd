@@ -1,0 +1,23 @@
+$date
+  Wed May  4 16:49:06 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module exer2 $end
+$var reg 4 ! a[0:3] $end
+$var reg 4 " b[3:0] $end
+$var reg 8 # o[7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000 "
+b00000000 #
