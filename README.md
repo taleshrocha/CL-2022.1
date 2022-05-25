@@ -11,7 +11,7 @@ sudo apt-get install ghdl gtkwave
 
 # Como compilar:
 
-Recomendo fortemente o uso do aquivo [a relative link](Makefile) presente na pasta raiz.
+Recomendo fortemente o uso do aquivo [Makefile](Makefile) presente na pasta raiz.
 Para executá-lo, use os seguintes comandos:
 
 ```
