@@ -1,7 +1,0 @@
-v 4
-file . "demux.vhdl" "87d3867add311a8c3f0769f8ecaa6683351a5f6b" "20220524163133.902":
-  entity demux at 1( 0) + 0 on 57;
-  architecture behaviour of demux at 12( 222) + 0 on 58;
-file . "demux_tb.vhdl" "0a3ac66bd22bc803e76bc41028d05876fb45c0af" "20220524163135.783":
-  entity demux_tb at 1( 0) + 0 on 59;
-  architecture behavior of demux_tb at 7( 80) + 0 on 60;
