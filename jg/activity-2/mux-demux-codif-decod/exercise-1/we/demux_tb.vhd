@@ -17,9 +17,9 @@ PORT (
 );
 END COMPONENT;
 
-signal input: std_logic_vector (1 downto 0);
-signal key: std_logic_vector (1 downto 0);
-signal out1, out2, out3, out4: std_logic_vector (1 downto 0);
+SIGNAL input: std_logic_vector(0 to 1);
+SIGNAL key: std_logic_vector(0 to 1);
+SIGNAL out1, out2, out3, out4: std_logic_vector(0 to 1);
 
 BEGIN
   -- Connect DUT

@@ -1,0 +1,13 @@
+v 4
+file . "encoder.vhd" "24ca35abf69112e5ecfd80900467338248b8adfe" "20220526002638.927":
+  entity encoder at 1( 0) + 0 on 81;
+  architecture behaviour of encoder at 11( 161) + 0 on 82;
+file . "coffee_machine_tb.vhd" "1b647426abd2a9d0f8a56aad6074d73d6d1c224c" "20220526002642.292":
+  entity coffee_machine_tb at 2( 23) + 0 on 85;
+  architecture tb of coffee_machine_tb at 9( 128) + 0 on 86;
+file . "coffee_machine.vhd" "858a789d8218f8dae4697dbd918b31cf10edd018" "20220526002638.904":
+  entity coffee_machine at 1( 0) + 0 on 79;
+  architecture behaviour of coffee_machine at 11( 172) + 0 on 80;
+file . "mux.vhd" "69edb61774fddad01b439a25968b55a685aedacb" "20220526002638.948":
+  entity mux at 1( 0) + 0 on 83;
+  architecture behaviour of mux at 11( 136) + 0 on 84;
