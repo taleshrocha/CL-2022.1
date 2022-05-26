@@ -3,24 +3,24 @@ use ieee.std_logic_1164.all;
 
 entity demux is
   port(
-        f : in std_logic_vector (1 downto 0);
-        s: in std_logic_vector (1 downto 0);
+        i : in std_logic_vector (1 downto 0);
+        k: in std_logic_vector (1 downto 0);
   a, b, c, d: out std_logic_vector (1 downto 0)
 );
 end demux;
 
-architecture behaviour of demux is
+architecture bhv of demux is
 begin
-  with s select
-    a <= f when "00",
+  with k select
+    a <= i when "00",
          "00" when others;
-  with s select
-    b <= f when "01",
+  with k select
+    b <= i when "01",
          "00" when others;
-  with s select
-    c <= f when "10",
+  with k select
+    c <= i when "10",
          "00" when others;
-  with s select
-    d <= f when "11",
+  with k select
+    d <= i when "11",
          "00" when others;
-end behaviour;
+end bhv;

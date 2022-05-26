@@ -15,11 +15,25 @@ UUT : entity work.add_sub port map (a => a, b => b, k => k, o => o, over => over
 stim_proc: process
   begin
 
-  k <= '0';
-  a <= "00000001";
-  b <= "00000001";
+  k <= '0', '1' after 50 ns;
+  a <= "00010001";
+  b <= "00000011";
   wait for 100 ns;
-  k <= '1';
+
+  k <= '0', '1' after 50 ns;
+  a <= "00010001";
+  b <= "00000000";
+  wait for 100 ns;
+
+  k <= '0', '1' after 50 ns;
+  a <= "10000000";
+  b <= "10000000";
+  wait for 100 ns;
+
+
+  k <= '0', '1' after 50 ns;
+  a <= "00001011";
+  b <= "00100000";
   wait for 100 ns;
 
   wait;

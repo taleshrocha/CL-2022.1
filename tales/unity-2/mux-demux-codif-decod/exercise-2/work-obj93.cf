@@ -1,0 +1,10 @@
+v 4
+file . "coffee_tb.vhdl" "390ca498cc407f4bb83c9f4868fb0bfeaf4280f4" "20220526204642.176":
+  entity coffee_tb at 1( 0) + 0 on 15;
+  architecture behavior of coffee_tb at 7( 82) + 0 on 16;
+file . "coffee.vhdl" "89961956f157ee6a4e7f9e21d26e321d173efd89" "20220526204636.255":
+  entity coffee at 1( 0) + 0 on 11;
+  architecture behaviour of coffee at 11( 163) + 0 on 12;
+file . "encoder.vhdl" "8166449af725714dc3e6e921e712fffcce4338da" "20220526204636.478":
+  entity encoder at 1( 0) + 0 on 13;
+  architecture behaviour of encoder at 11( 185) + 0 on 14;

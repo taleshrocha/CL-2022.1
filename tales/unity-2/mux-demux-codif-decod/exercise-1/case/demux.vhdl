@@ -3,21 +3,21 @@ use ieee.std_logic_1164.all;
 
 entity demux is
   port(
-  f : in std_logic_vector (1 downto 0);
-  s: in std_logic_vector (1 downto 0);
+  i : in std_logic_vector (1 downto 0);
+  k: in std_logic_vector (1 downto 0);
   a, b, c, d: out std_logic_vector (1 downto 0)
 );
 end demux;
 
-architecture behaviour of demux is
+architecture bhv of demux is
 begin
-  process (f,s) is
+  process (i,k) is
     begin
-      case (s) is
-        when ("00") => a <= f; 
-        when ("01") => b <= f ;
-        when ("10") => c <= f;
-        when others => d <= f;
+      case (k) is
+        when ("00") => a <= i; 
+        when ("01") => b <= i ;
+        when ("10") => c <= i;
+        when others => d <= i;
       end case;
   end process;
-end behaviour;
+end bhv;
