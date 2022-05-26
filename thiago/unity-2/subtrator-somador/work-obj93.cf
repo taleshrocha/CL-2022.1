@@ -1,13 +1,13 @@
 v 4
-file . "somcom.vhdl" "9b6ab2cc3c205fce1a92792e38a86750d5b10af7" "20220525211417.521":
-  entity somcom at 1( 0) + 0 on 51;
-  architecture main of somcom at 11( 138) + 0 on 52;
+file . "somcom.vhdl" "9b6ab2cc3c205fce1a92792e38a86750d5b10af7" "20220526140717.162":
+  entity somcom at 1( 0) + 0 on 59;
+  architecture main of somcom at 11( 138) + 0 on 60;
 file . "demux_tb.vhdl" "0a3ac66bd22bc803e76bc41028d05876fb45c0af" "20220523211833.230":
   entity demux_tb at 1( 0) + 0 on 13;
   architecture behavior of demux_tb at 7( 80) + 0 on 14;
 file . "demux.vhdl" "ac5bd8269afd0e370b9f9c8adf1a41559cf089eb" "20220525185909.241":
   entity demux at 1( 0) + 0 on 15;
   architecture behaviour of demux at 12( 210) + 0 on 16;
-file . "subsom.vhdl" "960cb6f2062a013dad2b1a9bc826d98cf7d90bd7" "20220525211417.611":
-  entity subsom at 1( 0) + 0 on 53;
-  architecture main of subsom at 13( 206) + 0 on 54;
+file . "subsom.vhdl" "2130770ca083ea9b247212cd7b99a08caeba9e98" "20220526140717.218":
+  entity subsom at 1( 0) + 0 on 61;
+  architecture main of subsom at 13( 206) + 0 on 62;
