@@ -56,13 +56,7 @@ ghdl --clean
 
 ## Como visualizar os projetos de Jonas:
 
-Inicialize os submodulos do repositório (note que você precisará fazer isso uma única vez):
-
-```
-git submodule init
-```
-
-Depois, atualize os arquivos:
+Rode o comando abaixo para inicializar e atualizar o submodulo do repositório:
 
 ```
 git submodule update --remote --init --recursive
