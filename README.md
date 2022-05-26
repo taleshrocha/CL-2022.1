@@ -1,5 +1,6 @@
-## Repositório *SECRETO* contendo as resoluções dos alunos de CL 2022.1.
-### *Importante:* não cole dos seus amigos. Apenas inspire-se nas resoluções deles.
+## Repositório _SECRETO_ contendo as resoluções dos alunos de CL 2022.1.
+
+### _Importante:_ não cole dos seus amigos. Apenas inspire-se nas resoluções deles.
 
 # Ferramentas:
 
@@ -18,10 +19,12 @@ Para executá-lo, use os seguintes comandos:
 make FILE=NOME_DO_ARQUIVO ENTITY=NOME_DA_ENTIDADE
 make tb FILE=NOME_DO_ARQUIVO ENTITY=NOME_DA_ENTIDADE
 ```
+
 Vendo o Makefile, perceba que o `ENTITY` é opcional caso o nome do arquivo e o nome da entidade são iguais!
 Caso você já tenha o arquivo de test bench, podes executar apenas o segundo comando.
 
 ## Alternativamente:
+
 ```
 ghdl -a NOME_DO_ARQUIVO.vhdl
 ghdl -m NOME_DA_ENTIDADE
@@ -46,6 +49,21 @@ make c
 ```
 
 ## Alternativamente:
+
 ```
 ghdl --clean
+```
+
+## Como visualizar os projetos de Jonas:
+
+Inicialize os submodulos do repositório (note que você precisará fazer isso uma única vez):
+
+```
+git submodule init
+```
+
+Depois, atualize os arquivos:
+
+```
+git submodule update --remote --init --recursive
 ```

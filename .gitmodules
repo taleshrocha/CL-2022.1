@@ -1,0 +1,3 @@
+[submodule "jonas"]
+	path = jonas
+	url = https://github.com/usrjonas/ufrn-imd-circuitos-logicos.git
