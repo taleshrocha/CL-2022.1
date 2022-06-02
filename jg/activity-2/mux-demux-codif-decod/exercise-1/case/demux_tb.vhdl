@@ -11,23 +11,23 @@ ARCHITECTURE tb OF demux_tb IS
 -- DUT component
 COMPONENT demux IS
 PORT (
-  input: IN std_logic_vector(0 to 1);
+  inp: IN std_logic_vector(0 to 1);
   key: IN std_logic_vector(0 to 1);
   out1, out2, out3, out4: OUT std_logic_vector(0 to 1)
 );
 END COMPONENT;
 
-SIGNAL input: std_logic_vector(0 to 1);
+SIGNAL inp: std_logic_vector(0 to 1);
 SIGNAL key: std_logic_vector(0 to 1);
 SIGNAL out1, out2, out3, out4: std_logic_vector(0 to 1);
 
 BEGIN
   -- Connect DUT
-  DUT: demux port map(input, key, out1, out2, out3, out4);
+  DUT: demux port map(inp, key, out1, out2, out3, out4);
   
   PROCESS
   BEGIN
-    input <= "00";
+    inp <= "00";
     key <= "00";
     WAIT FOR 100 ns;
     ASSERT(out1="00") REPORT "Fail input: 00/key: 00" SEVERITY error;
@@ -41,7 +41,7 @@ BEGIN
     WAIT FOR 100 ns;
     ASSERT(out4="00") REPORT "Fail input: 00/key: 11" SEVERITY error;
     
-    input <= "01";
+    inp <= "01";
     key <= "00";
     WAIT FOR 100 ns;
     ASSERT(out1="01") REPORT "Fail input: 01/key: 00" SEVERITY error;
@@ -55,7 +55,7 @@ BEGIN
     WAIT FOR 100 ns;
     ASSERT(out4="01") REPORT "Fail input: 01/key: 11" SEVERITY error;
     
-    input <= "10";
+    inp <= "10";
     key <= "00";
     WAIT FOR 100 ns;
     ASSERT(out1="10") REPORT "Fail input: 10/key: 00" SEVERITY error;
@@ -69,7 +69,7 @@ BEGIN
     WAIT FOR 100 ns;
     ASSERT(out4="10") REPORT "Fail input: 10/key: 11" SEVERITY error;
     
-    input <= "11";
+    inp <= "11";
     key <= "00";
     WAIT FOR 100 ns;
     ASSERT(out1="11") REPORT "Fail input: 11/key: 00" SEVERITY error;
@@ -84,7 +84,7 @@ BEGIN
     ASSERT(out4="11") REPORT "Fail input: 11/key: 11" SEVERITY error;
 
     -- Clear inputs
-    input <= "00";
+    inp <= "00";
     key <= "00";
 
     ASSERT false REPORT "Test done." SEVERITY note;
