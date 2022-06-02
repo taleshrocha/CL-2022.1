@@ -1,0 +1,10 @@
+v 4
+file . "comparator.vhdl" "951ebf6c2fe859d89bbce3c08d4855a0e6361fe2" "20220602202828.595":
+  entity comparator at 1( 0) + 0 on 51;
+  architecture behavior of comparator at 11( 162) + 0 on 52;
+file . "comparator_5.vhdl" "0cbda579f885c857bfc5f5d1b9e24b70538e6c71" "20220602202828.783":
+  entity comparator_5 at 1( 0) + 0 on 53;
+  architecture behavior of comparator_5 at 12( 202) + 0 on 54;
+file . "comparator_5_tb.vhdl" "ac096299e55f1af48592f9bfe737ec2cd032e1ba" "20220602203456.206":
+  entity comparator_5_tb at 1( 0) + 0 on 59;
+  architecture behavior of comparator_5_tb at 7( 94) + 0 on 60;
