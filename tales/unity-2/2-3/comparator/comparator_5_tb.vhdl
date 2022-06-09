@@ -26,6 +26,12 @@ stim_proc: process
   y_i <= '0';
   z_i <= '0';
   wait for 100 ns;
+  a <= "10000";
+  b <= "00010";
+  x_i <= '1';
+  y_i <= '0';
+  z_i <= '0';
+  wait for 100 ns;
 
   wait;
   end process;
